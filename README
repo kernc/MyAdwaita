@@ -1,0 +1,18 @@
+MyAdwaita - A GTK theme
+=======================
+
+My Adwaita appropriation, made with a decent amount of scorn for GNOME's
+recent idiocity and yearnful longing for days when running Linux desktop
+was still a fun, colorful, customizable, and empowering experience.
+
+The theme is made to work with GNOME/GTK+ stack that comes with (each)
+Debian stable.
+
+
+Installation
+------------
+Copy all files into ~/.themes/MyAdwaita.
+
+    mkdir ~/.themes
+    cd ~/.themes
+    git clone https://github.com/kernc/MyAdwaita
