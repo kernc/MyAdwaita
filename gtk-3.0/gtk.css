@@ -8,3 +8,10 @@
 label:focus {
     border: none;
 }
+
+/* Wishful thinking, probably doesn't work */
+* {
+    -GtkButton-use-underline: true;
+    -GtkButton-always-show-image: true;
+    -GtkButton-use-stock: true;
+}
