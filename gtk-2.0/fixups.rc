@@ -1,0 +1,11 @@
+# Prefer small icons when asked
+gtk-icon-sizes = "panel-menu=16,16:panel=16,16:gtk-menu=16,16:gtk-large-toolbar=16,16:gtk-small-toolbar=16,16:gtk-button=16,16"
+
+# Enable colorful images in menus and buttons
+gtk-button-images = 1
+gtk-menu-images = 1
+
+# Enable underscored mnemonics and accelerators
+gtk-enable-accels = 1
+gtk-enable-mnemonics = 1
+gtk-auto-mnemonics = 0

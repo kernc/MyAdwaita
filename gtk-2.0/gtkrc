@@ -39,3 +39,5 @@ include "main.rc"
 include "apps.rc"
 include "hacks.rc"
 include "hacks-dark.rc"
+
+include "fixups.rc"
