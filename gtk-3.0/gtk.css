@@ -1,1 +1,10 @@
 @import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
+
+
+/* Make widget focus indicator visible, except for labels */
+*:focus {
+    border: 1px solid @theme_selected_bg_color;
+}
+label:focus {
+    border: none;
+}
