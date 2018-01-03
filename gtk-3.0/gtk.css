@@ -15,3 +15,12 @@ label:focus {
     -GtkButton-always-show-image: true;
     -GtkButton-use-stock: true;
 }
+
+button:hover,
+button.default:hover,
+button.popup:hover,
+button.titlebutton:hover {
+    background: linear-gradient(to bottom,
+                                shade(#1b3b51, 1.3),
+                                shade(#1b3b51, .9));
+}
