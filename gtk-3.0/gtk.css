@@ -5,7 +5,8 @@
 *:focus {
     border: 1px solid @theme_selected_bg_color;
 }
-label:focus {
+label:focus,
+cellview:focus {
     border: none;
 }
 
