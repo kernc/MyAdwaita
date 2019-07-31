@@ -5,9 +5,13 @@
 *:focus {
     border: 1px solid @theme_selected_bg_color;
 }
-label:focus,
-cellview:focus {
-    border: none;
+* {  /* prevent flickering */
+    border: 1px solid transparent
+}
+label, label:focus,
+cellview, cellview:focus,    /* label inside combo box */
+.view, .view:focus {         /* Thunar's ExoIconView */
+    border: none
 }
 
 /* Wishful thinking, probably doesn't work */
