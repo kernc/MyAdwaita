@@ -92,6 +92,10 @@ notebook header.right tabs tab:checked:hover {
 button.destructive-action:hover {
     background: @destructive_action;
 }
-
-
 @define-color destructive_action #600;
+
+menubar > menuitem:hover > label,
+.menubar menuitem:hover > label {
+    color: white;
+    text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white;
+}
