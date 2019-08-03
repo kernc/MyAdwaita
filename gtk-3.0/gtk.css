@@ -98,3 +98,12 @@ menubar > menuitem:hover > label,
     color: white;
     text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white;
 }
+
+window > decoration,
+.csd decoration,
+.solid-csd decoration {
+    border: 1px solid mix(white, @theme_selected_bg_color, .5);
+}
+decoration:backdrop {
+    border: transparent;
+}
