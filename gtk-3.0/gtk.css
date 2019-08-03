@@ -2,16 +2,17 @@
 
 
 /* Make widget focus indicator visible, except for labels */
-*:focus {
+*:not(.view):focus {
     border: 1px solid @theme_selected_bg_color;
 }
-* {  /* prevent flickering */
+*:not(.view) {  /* prevent flickering */
     border: 1px solid transparent
 }
-label, label:focus,
-cellview, cellview:focus,    /* label inside combo box */
-.view, .view:focus {         /* Thunar's ExoIconView */
-    border: none
+label:not(.view),
+label:not(.view):focus,
+cellview:not(.view),         /* label inside combo box */
+cellview:not(.view):focus {
+    border: none;
 }
 
 /* Wishful thinking, probably doesn't work */
