@@ -1,5 +1,10 @@
 @import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
 
+/* Override widget style properties */
+* {
+    -GtkTreeView-tree-line-pattern: "\002\002";
+}
+
 
 /* Make widget focus indicator visible, except for labels */
 *:not(.view):focus {
@@ -13,13 +18,6 @@ label:not(.view):focus,
 cellview:not(.view),         /* label inside combo box */
 cellview:not(.view):focus {
     border: none;
-}
-
-/* Wishful thinking, probably doesn't work */
-* {
-    -GtkButton-use-underline: true;
-    -GtkButton-always-show-image: true;
-    -GtkButton-use-stock: true;
 }
 
 
