@@ -24,14 +24,16 @@ cellview:not(.view):focus {
  *
  */
 
+headerbar.titlebar { min-height:24px }
+
 button,
 button.flat,
 button.text-button,
 button.image-button,
 stackswitcher.stack-switcher button {
-    min-height: .5cm;
-    min-width: .5cm;
-    padding: 5px 5px 3px 5px;
+    min-height: .4cm;
+    min-width: .4cm;
+    padding: 3px 4px 2px 4px;
 }
 
 notebook header.top tabs tab,
