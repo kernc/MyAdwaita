@@ -10,9 +10,6 @@
 *:not(.view):focus {
     border: 1px solid @theme_selected_bg_color;
 }
-*:not(.view) {  /* prevent flickering */
-    border: 1px solid transparent
-}
 label:not(.view),
 label:not(.view):focus,
 cellview:not(.view),         /* label inside combo box */
