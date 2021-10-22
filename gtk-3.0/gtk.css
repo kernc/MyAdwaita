@@ -2,7 +2,7 @@
 
 /* Override widget style properties */
 * {
-    -GtkTreeView-tree-line-pattern: "\002\002";
+    -GtkTreeView-tree-line-pattern: "\1 \1";
 }
 
 
